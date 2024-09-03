@@ -12,7 +12,6 @@ terraform {
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
-    hash_key       = "id"
   }
 }
 
