@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-aws-baket-abcd"
+    bucket         = "my-ews-bucket12345"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Lock-Files-jenkins"
     encrypt        = true
   }
 }
